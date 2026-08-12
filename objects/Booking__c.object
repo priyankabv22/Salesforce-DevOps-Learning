@@ -152,26 +152,14 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Booking History</label>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Booking</label>
     <nameField>
-        <label>Booking History Name</label>
+        <label>Booking Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Bookings History</pluralLabel>
+    <pluralLabel>Bookings</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
     <visibility>Public</visibility>
-    <fields>
-        <fullName>Booking__c</fullName>
-        <label>Booking</label>
-        <referenceTo>Booking__c</referenceTo>
-        <relationshipLabel>Bookings History</relationshipLabel>
-        <relationshipName>Bookings_History</relationshipName>
-        <relationshipOrder>0</relationshipOrder>
-        <reparentableMasterDetail>false</reparentableMasterDetail>
-        <trackTrending>false</trackTrending>
-        <type>MasterDetail</type>
-        <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    </fields>
 </CustomObject>
